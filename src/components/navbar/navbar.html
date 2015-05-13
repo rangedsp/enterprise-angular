@@ -1,13 +1,15 @@
-<md-toolbar layout="row" layout-align="center center" ng-controller="app.components.NavbarController">
-
-  <md-button href="https://github.com/Swiip/generator-gulp-angular">Gulp Angular</md-button>
-
-  <section flex layout="row" layout-align="left center">
-    <md-button href="#" class="md-raised">Home</md-button>
-    <md-button href="#" class="md-raised">About</md-button>
-    <md-button href="#" class="md-raised">Contact</md-button>
-  </section>
-
-  <md-button href="#">Current date: {{ date | date:'yyyy-MM-dd' }}</md-button>
-
-</md-toolbar>
+<nav class="navbar" ng-controller="app.components.NavbarController">
+    <div class="container">
+        <div class="four columns">
+        	<h5>Intergen Angular Seed</h5>
+        </div>
+        <div class="eight columns">
+        	<ul class="navbar-list u-pull-right">
+	            <li><a href="">Home</a></li>
+	            <li><a href="">Link 1</a></li>
+	            <li><a href="">Link 2</a></li>
+	            <li><a href="">Link 3</a></li>
+	        </ul>
+        </div>
+    </div>
+</nav>
