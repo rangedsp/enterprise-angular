@@ -1,6 +1,6 @@
 /// <reference path="../../.tmp/typings/tsd.d.ts" />
 
-/// <reference path="main/main.controller.ts" />
+/// <reference path="home/main.controller.ts" />
 /// <reference path="../components/navbar/navbar.controller.ts" />
 
 module app {
@@ -14,7 +14,7 @@ module app {
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'app/main/main.html',
+        templateUrl: 'app/home/main.html',
         controller: 'MainCtrl'
       });
 
