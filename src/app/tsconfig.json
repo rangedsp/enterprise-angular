@@ -14,7 +14,7 @@
         "!./.tmp/typings/**/*.ts"
     ],
     "files": [
-        "./home/main.controller.ts",
+        "./home/home.controller.ts",
         "./index.ts"
     ]
 }

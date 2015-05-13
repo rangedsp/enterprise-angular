@@ -1,4 +1,4 @@
-module app {
+module app.home {
   'use strict';
 
   class Thing {
@@ -21,7 +21,7 @@ module app {
     awesomeThings: Thing[]
   }
 
-  export class MainCtrl {
+  export class HomeController {
     /* @ngInject */
     constructor ($scope: IMainScope) {
       var awesomeThings = [

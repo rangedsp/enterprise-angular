@@ -1,11 +1,11 @@
-module app {
+module app.components {
   'use strict';
 
   interface INavbarScope extends ng.IScope {
     date: Date
   }
 
-  export class NavbarCtrl {
+  export class NavbarController {
     /* @ngInject */
     constructor ($scope: INavbarScope) {
       $scope.date = new Date();
