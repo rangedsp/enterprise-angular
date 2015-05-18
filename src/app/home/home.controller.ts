@@ -1,13 +1,17 @@
 module app.home {
-  'use strict';
+	'use strict';
 
-  export class HomeController {
+	export class HomeController {
 
-    public isAngularRunning: boolean;
+		public isAngularRunning: boolean;
 
-    /* @ngInject */
-    constructor ($scope: ng.IScope) {
-        this.isAngularRunning = true;
-    }
-  }
+		/* @ngInject */
+		constructor ($scope: ng.IScope) {
+			this.isAngularRunning = true;
+		}
+	}
+
+	angular
+		.module('app.home')
+		.controller('app.home.HomeController', HomeController);
 }
