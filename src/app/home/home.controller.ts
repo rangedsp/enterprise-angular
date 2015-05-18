@@ -10,5 +10,4 @@ module app.home {
         this.isAngularRunning = true;
     }
   }
-
 }

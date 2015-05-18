@@ -19,6 +19,5 @@ module app {
       });
 
     $urlRouterProvider.otherwise('/');
-  })
-;
+  });
 }
