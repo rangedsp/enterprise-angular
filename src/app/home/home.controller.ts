@@ -6,7 +6,7 @@ module app.home {
     public isAngularRunning: boolean;
 
     /* @ngInject */
-    constructor () {
+    constructor ($scope: ng.IScope) {
         this.isAngularRunning = true;
     }
   }

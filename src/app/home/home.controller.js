@@ -4,7 +4,7 @@ var app;
     (function (home) {
         'use strict';
         var HomeController = (function () {
-            function HomeController() {
+            function HomeController($scope) {
                 this.isAngularRunning = true;
             }
             return HomeController;
