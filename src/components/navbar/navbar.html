@@ -1,15 +1,13 @@
-<nav class="navbar" ng-controller="app.components.NavbarController as nav">
+<nav class="navbar navbar-default" role="navigation" bs-navbar ng-controller="app.components.NavbarController as nav">
     <div class="container">
-        <div class="four columns">
-        	<h5>Intergen Angular Template</h5>
-        </div>
-        <div class="eight columns">
-        	<ul class="navbar-list u-pull-right">
-	            <li><a href="">Home</a></li>
-	            <li><a href="">Link 1</a></li>
-	            <li><a href="">Link 2</a></li>
-	            <li><a href="">Link 3</a></li>
-	        </ul>
+        <div class="col-md-12">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/">Intergen Angular Template</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li data-match-route="/$"><a href="#/">Home</a></li>
+                <li data-match-route="/features"><a href="#/page-one">Features</a></li>
+            </ul>
         </div>
     </div>
 </nav>

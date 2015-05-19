@@ -9,12 +9,12 @@ module app {
         'ngTouch',
         'ngSanitize',
         'ngResource',
+        'mgcrea.ngStrap',
 
         'app.home',
         'app.components',
 
-        'ui.router',
-        'ngMaterial'
+        'ui.router'
     ]);
 
     angular.module('app.home', []);
