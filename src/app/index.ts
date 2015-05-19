@@ -9,6 +9,10 @@ module app {
         'ngTouch',
         'ngSanitize',
         'ngResource',
+
+        'app.home',
+        'app.components',
+
         'ui.router',
         'ngMaterial'
     ]);
