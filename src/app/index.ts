@@ -13,10 +13,12 @@ module app {
 
         'app.home',
         'app.components',
+        'app.directives',
 
         'ui.router'
     ]);
 
     angular.module('app.home', []);
     angular.module('app.components', []);
+    angular.module('app.directives', []);
 }
