@@ -45,7 +45,7 @@ module.exports = function(options) {
       .pipe($.uglify({ preserveComments: $.uglifySaveLicense })).on('error', options.errorHandler('Uglify'))
       .pipe(jsFilter.restore())
       .pipe(cssFilter)
-      .pipe($.csso())
+      // .pipe($.csso()) // TODO: Fix buggy POS.
       .pipe(cssFilter.restore())
       .pipe(assets.restore())
       .pipe($.useref())

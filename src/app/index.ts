@@ -9,7 +9,7 @@ module app {
         'ngTouch',
         'ngSanitize',
         'ngResource',
-        'mgcrea.ngStrap',
+        'ui.materialize',
 
         'app.home',
         'app.components',

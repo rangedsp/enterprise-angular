@@ -2,17 +2,18 @@
 <html ng-app="app">
   <head>
     <meta charset="utf-8">
-    <title>Intergen Angular Template</title>
+    <title>Enterprise Angular Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
     <!-- bower:css -->
     <!-- run `gulp inject` to automatically populate bower styles dependencies -->
     <!-- endbower -->
-    <link rel="stylesheet" href="vendor/styles/skeleton.css">
+    <style rel="stylesheet" href="../bower_components/modernizr/modernizr.js"></style>
     <!-- endbuild -->
 
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
@@ -27,7 +28,10 @@
     <![endif]-->
 
     <header ng-include="'components/navbar/navbar.html'"></header>
+
     <div ui-view></div>
+    
+	<div ng-include="'components/footer/footer.html'"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -38,6 +42,7 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
+
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
